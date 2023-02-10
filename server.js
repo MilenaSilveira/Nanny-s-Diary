@@ -10,7 +10,7 @@ const sequelize = require('./config/connection');
 const app = express();
 const PORT = process.env.PORT || 3001;
 
-
+ 
 // Set up sessions with cookies
 // const sess = {
 //   secret: 'Super secret secret',
