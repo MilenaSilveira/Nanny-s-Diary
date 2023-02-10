@@ -1,6 +1,6 @@
 const { AdminPost } = require('../models');
 
-const postData = [
+const adminPostData = [
   {
     child_Name: 'Timmy',
     meals: 'Chicken nuggets and apple sauce for lunch. Goldfish for afternoon snack',
@@ -13,6 +13,6 @@ const postData = [
 
 ];
 
-const seedPosts = () => AdminPost.bulkCreate(postData);
+const seedAdminPosts = () => AdminPost.bulkCreate(adminPostData);
 
-module.exports = seedPosts;
+module.exports = seedAdminPosts;
