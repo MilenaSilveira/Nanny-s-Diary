@@ -14,6 +14,9 @@ Child.init(
     child_name: {
       type: DataTypes.STRING,
       allowNull: false,
+      validate: {
+        notEmpty: true
+      }
     },
     diet_restrictions: {
       type: DataTypes.STRING,
