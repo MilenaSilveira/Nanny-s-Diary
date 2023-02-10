@@ -49,3 +49,4 @@ AdminPost.belongsTo(Child, {
 
 
 module.exports = { Child, AdminPost, Post, User, Admin };
+
