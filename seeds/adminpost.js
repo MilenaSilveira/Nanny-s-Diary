@@ -8,9 +8,7 @@ const postData = [
     nap_schedule:'took nap for 2 hrs',
     child_mood: 'Happy: Overall good day',
     other: 'n/a',
-    date_created: 
-
-    
+    date_created: asdfasdf
   },
 
 ];
