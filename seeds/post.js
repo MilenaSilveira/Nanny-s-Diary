@@ -5,7 +5,6 @@ const postData = [
     title: 'Off-Day',
     content: 'Jim wont be coming to daycare on Tuesday',
     user_id: 1
-    
   },
 
 ];
